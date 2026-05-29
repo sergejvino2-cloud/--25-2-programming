@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/icons/happy.ico</file>
+        <file>resources/style.qss</file>
+    </qresource>
+</RCC>

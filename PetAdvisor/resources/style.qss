@@ -1,0 +1,108 @@
+* {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 13px;
+}
+
+QMainWindow {
+    background-color: #faf0e1;
+}
+
+QGroupBox {
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #8b5a2b;
+    border-radius: 10px;
+    margin-top: 14px;
+    padding-top: 14px;
+    background-color: #fff8f0;
+    color: #4a2c0c;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 12px;
+    padding: 0 8px;
+    color: #6b3e1a;
+    background-color: #fff8f0;
+}
+
+QPushButton {
+    background-color: #8b5a2b;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+QPushButton:hover {
+    background-color: #a06e3a;
+}
+QPushButton:pressed {
+    background-color: #6b3e1a;
+}
+
+QLineEdit, QSpinBox, QDoubleSpinBox, QComboBox {
+    border: 1px solid #c8a87c;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: #ffffff;
+    font-size: 13px;
+}
+QLineEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus, QComboBox:focus {
+    border: 2px solid #8b5a2b;
+}
+
+QTableWidget {
+    border: 1px solid #c8a87c;
+    border-radius: 6px;
+    background-color: #fffef7;
+    font-size: 13px;
+}
+QHeaderView::section {
+    background-color: #8b5a2b;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 13px;
+}
+QTableWidget::item {
+    padding: 5px;
+}
+
+QTextEdit {
+    background-color: #fdf6e8;
+    border: 1px solid #d4a373;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 13px;
+    color: #3e2a1f;
+}
+
+QLabel {
+    color: #4a2c0c;
+    font-size: 13px;
+}
+QLabel#infoLabel {
+    font-size: 14px;
+    background-color: #fff3e0;
+    border: 1px solid #e0bc8c;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+QLabel#foodGraphLabel, QLabel#waterGraphLabel {
+    border: 2px solid #d4a373;
+    border-radius: 8px;
+    background-color: #fffef7;
+    min-width: 280px;
+    min-height: 200px;
+}
+
+QCheckBox {
+    spacing: 8px;
+    color: #4a2c0c;
+}
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+}
